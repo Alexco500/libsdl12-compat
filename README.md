@@ -9,7 +9,7 @@ At the moment, the following SDL components are included
 * SDL_image (v1.2.12)
 * SDL_ttf (v2.0.11)
 
-For better compatability, SDL_image is set to SDL_IMAGE_USE_COMMON_BACKEND, which means ImageIO is not used for loading images.
+For better compatability, SDL_image is set to `SDL_IMAGE_USE_COMMON_BACKEND`, which means ImageIO is not used for loading images.
 Instead libpng, libtiff, etc. are used. The included binary dependencies are compiled as follows
 ## brotli
 Nothing special, just configure
