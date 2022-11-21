@@ -66,3 +66,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+*.o
+*.d
+*.exe
+*.exe
+# ignore Xcode/Apple stuff
+.DS_Store
+*.swp
+*~.nib
+
