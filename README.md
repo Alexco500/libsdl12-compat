@@ -14,17 +14,28 @@ For better compatability, SDL_image is set to `SDL_IMAGE_USE_COMMON_BACKEND`, wh
 Instead libpng, libtiff, etc. are used and statically linked to the SDL libraries. 
 The included binary dependencies are compiled as follows (both x86_64 and arm64, min macOS 10.13):
 
-## brotli (1.0.9)
+brotli (1.0.9)
+---
 Nothing special, just configure
-##lerc (4.0.0)
+
+lerc (4.0.0)
+---
 Provided Xcode project is used
-##libpng (1.6.38)
+
+libpng (1.6.38)
+---
 `./configure  CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -I/PATH/TO/libsdl12-compat/include" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -L/PATH/TO/libsdl12-compat/libs"`
-##freetype (2.12.1)
+
+freetype (2.12.1)
+---
 `./configure --with-harfbuzz=no --with-png=yes LIBPNG_CFLAGS="-I../libpng-1.6.38" LIBPNG_LIBS="-lpng16" --with-brotli=yes BROTLI_CFLAGS="-I../brotli-master/c/include" BROTLI_LIBS="-lbrotlicommon-static -lbrotlidec-static -lbrotlienc-static" CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -L../brotli-master/ -L../libpng-1.6.38/.libs/"`
-##libtiff (4.4.0)
+
+libtiff (4.4.0)
+---
 `./configure --disable-jbig --disable-webp --with-x=no --with-lerc-include-dir=/PATH/TO/libsdl12-compat/include --with-lerc-lib-dir=/PATH/TO/libsdl12-compat/libs CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -I/PATH/TO/libsdl12-compat/include" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -L/PATH/TO/libsdl12-compat/libs"`
-##xz (5.2.7)
+
+xz (5.2.7)
+---
 `./configure --disable-doc --disable-lzma-links --disable-lzmadec --disable-lzmainfo --disable-nls --disable-scripts --disable-xzdec CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -I/PATH/TO/libsdl12-compat/include" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -L/PATH/TO/libsdl12-compat/libs"`
 
 All includes are located in libsdl12-compat/include and the binaries are in libsdl12-compat/lib.
