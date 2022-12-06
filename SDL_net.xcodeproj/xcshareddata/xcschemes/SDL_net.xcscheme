@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA82DE4429167E6E000CB809"
-               BuildableName = "SDL.framework"
-               BlueprintName = "SDL"
-               ReferencedContainer = "container:SDL.xcodeproj">
+               BlueprintIdentifier = "DA9745862916D68800DF9EA1"
+               BuildableName = "SDL_net.framework"
+               BlueprintName = "SDL_net"
+               ReferencedContainer = "container:SDL_net.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA82DE4429167E6E000CB809"
-            BuildableName = "SDL.framework"
-            BlueprintName = "SDL"
-            ReferencedContainer = "container:SDL.xcodeproj">
+            BlueprintIdentifier = "DA9745862916D68800DF9EA1"
+            BuildableName = "SDL_net.framework"
+            BlueprintName = "SDL_net"
+            ReferencedContainer = "container:SDL_net.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

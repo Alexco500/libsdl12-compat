@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8DB1CE293F37AF000D155E /* SDL_mixer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1CD293F37AF000D155E /* SDL_mixer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8DB1DD293F392B000D155E /* dynamic_fluidsynth.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1CF293F392B000D155E /* dynamic_fluidsynth.c */; };
+		DA8DB1DE293F392B000D155E /* dynamic_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D0293F392B000D155E /* dynamic_flac.c */; };
+		DA8DB1DF293F392B000D155E /* effect_stereoreverse.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D1293F392B000D155E /* effect_stereoreverse.c */; };
+		DA8DB1E0293F392B000D155E /* effect_position.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D2293F392B000D155E /* effect_position.c */; };
+		DA8DB1E1293F392B000D155E /* effects_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1D3293F392B000D155E /* effects_internal.h */; };
+		DA8DB1E2293F392B000D155E /* dynamic_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D4293F392B000D155E /* dynamic_mod.c */; };
+		DA8DB1E3293F392B000D155E /* dynamic_flac.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1D5293F392B000D155E /* dynamic_flac.h */; };
+		DA8DB1E4293F392B000D155E /* dynamic_ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1D6293F392B000D155E /* dynamic_ogg.h */; };
+		DA8DB1E5293F392B000D155E /* effects_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D7293F392B000D155E /* effects_internal.c */; };
+		DA8DB1E6293F392B000D155E /* dynamic_mp3.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1D8293F392B000D155E /* dynamic_mp3.h */; };
+		DA8DB1E7293F392B000D155E /* dynamic_ogg.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1D9293F392B000D155E /* dynamic_ogg.c */; };
+		DA8DB1E8293F392B000D155E /* dynamic_fluidsynth.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1DA293F392B000D155E /* dynamic_fluidsynth.h */; };
+		DA8DB1E9293F392B000D155E /* dynamic_mp3.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1DB293F392B000D155E /* dynamic_mp3.c */; };
+		DA8DB1EA293F392B000D155E /* dynamic_mod.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1DC293F392B000D155E /* dynamic_mod.h */; };
+		DA8DB203293F3984000D155E /* music_cmd.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1EB293F3983000D155E /* music_cmd.h */; };
+		DA8DB204293F3984000D155E /* music_ogg.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1EC293F3983000D155E /* music_ogg.c */; };
+		DA8DB205293F3984000D155E /* music_mod.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1ED293F3983000D155E /* music_mod.h */; };
+		DA8DB206293F3984000D155E /* music_mad.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1EE293F3983000D155E /* music_mad.h */; };
+		DA8DB207293F3984000D155E /* music_modplug.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1EF293F3983000D155E /* music_modplug.h */; };
+		DA8DB208293F3984000D155E /* timidity in Resources */ = {isa = PBXBuildFile; fileRef = DA8DB1F0293F3983000D155E /* timidity */; };
+		DA8DB209293F3984000D155E /* load_flac.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1F1293F3983000D155E /* load_flac.h */; };
+		DA8DB20A293F3984000D155E /* load_aiff.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1F2293F3983000D155E /* load_aiff.c */; };
+		DA8DB20B293F3984000D155E /* music_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1F3293F3983000D155E /* music_mod.c */; };
+		DA8DB20D293F3984000D155E /* music.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1F5293F3983000D155E /* music.c */; };
+		DA8DB20E293F3984000D155E /* load_ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1F6293F3984000D155E /* load_ogg.h */; };
+		DA8DB20F293F3984000D155E /* load_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1F7293F3984000D155E /* load_flac.c */; };
+		DA8DB210293F3984000D155E /* load_aiff.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1F8293F3984000D155E /* load_aiff.h */; };
+		DA8DB211293F3984000D155E /* mixer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1F9293F3984000D155E /* mixer.c */; };
+		DA8DB212293F3984000D155E /* load_voc.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1FA293F3984000D155E /* load_voc.h */; };
+		DA8DB213293F3984000D155E /* load_voc.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1FB293F3984000D155E /* load_voc.c */; };
+		DA8DB214293F3984000D155E /* music_modplug.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1FC293F3984000D155E /* music_modplug.c */; };
+		DA8DB215293F3984000D155E /* music_ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1FD293F3984000D155E /* music_ogg.h */; };
+		DA8DB216293F3984000D155E /* music_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1FE293F3984000D155E /* music_flac.c */; };
+		DA8DB217293F3984000D155E /* music_mad.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1FF293F3984000D155E /* music_mad.c */; };
+		DA8DB218293F3984000D155E /* music_flac.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB200293F3984000D155E /* music_flac.h */; };
+		DA8DB219293F3984000D155E /* music_cmd.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB201293F3984000D155E /* music_cmd.c */; };
+		DA8DB21A293F3984000D155E /* load_ogg.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB202293F3984000D155E /* load_ogg.c */; };
+		DA8DB21D293F3FB9000D155E /* wavestream.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB21B293F3FB9000D155E /* wavestream.h */; };
+		DA8DB21E293F3FB9000D155E /* wavestream.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB21C293F3FB9000D155E /* wavestream.c */; };
+		DA8DB225293F411A000D155E /* native_midi.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB221293F411A000D155E /* native_midi.h */; };
+		DA8DB226293F411A000D155E /* native_midi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB222293F411A000D155E /* native_midi_common.h */; };
+		DA8DB227293F411A000D155E /* native_midi_macosx.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB223293F411A000D155E /* native_midi_macosx.c */; };
+		DA8DB228293F411A000D155E /* native_midi_common.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB224293F411A000D155E /* native_midi_common.c */; };
+		DA8DB252293F5A51000D155E /* libmad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB22E293F59A0000D155E /* libmad.a */; };
+		DA8DB265293F5F0E000D155E /* mad.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB255293F5F0D000D155E /* mad.h */; };
+		DA8DB266293F5F0E000D155E /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB256293F5F0D000D155E /* stream.c */; };
+		DA8DB267293F5F0E000D155E /* layer12.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB257293F5F0D000D155E /* layer12.h */; };
+		DA8DB268293F5F0E000D155E /* bit.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB258293F5F0D000D155E /* bit.c */; };
+		DA8DB269293F5F0E000D155E /* huffman.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB259293F5F0E000D155E /* huffman.h */; };
+		DA8DB26A293F5F0E000D155E /* layer3.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB25A293F5F0E000D155E /* layer3.c */; };
+		DA8DB26B293F5F0E000D155E /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB25B293F5F0E000D155E /* frame.c */; };
+		DA8DB26C293F5F0E000D155E /* layer3.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB25C293F5F0E000D155E /* layer3.h */; };
+		DA8DB26D293F5F0E000D155E /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB25D293F5F0E000D155E /* fixed.c */; };
+		DA8DB26E293F5F0E000D155E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB25E293F5F0E000D155E /* version.c */; };
+		DA8DB26F293F5F0E000D155E /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB25F293F5F0E000D155E /* decoder.c */; };
+		DA8DB270293F5F0E000D155E /* layer12.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB260293F5F0E000D155E /* layer12.c */; };
+		DA8DB271293F5F0E000D155E /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB261293F5F0E000D155E /* global.h */; };
+		DA8DB272293F5F0E000D155E /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB262293F5F0E000D155E /* huffman.c */; };
+		DA8DB273293F5F0E000D155E /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB263293F5F0E000D155E /* timer.c */; };
+		DA8DB274293F5F0E000D155E /* synth.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB264293F5F0E000D155E /* synth.c */; };
+		DA8DB278293F65DA000D155E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB277293F65DA000D155E /* CoreAudio.framework */; };
+		DA8DB27E293F6620000D155E /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB279293F661F000D155E /* libogg.a */; };
+		DA8DB27F293F6620000D155E /* libmodule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27A293F6620000D155E /* libmodule.a */; };
+		DA8DB280293F6620000D155E /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27B293F6620000D155E /* libvorbis.a */; };
+		DA8DB281293F6620000D155E /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27C293F6620000D155E /* libFLAC.a */; };
+		DA8DB282293F6620000D155E /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27D293F6620000D155E /* libmikmod.a */; };
+		DA8DB284293F6795000D155E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB283293F6795000D155E /* AudioToolbox.framework */; };
+		DA8DB286293F6859000D155E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB285293F6859000D155E /* CoreServices.framework */; };
+		DA8DB288293F6A40000D155E /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB287293F6A40000D155E /* libvorbisfile.a */; };
+		DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745B62917B05400DF9EA1 /* SDL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA8DB1CD293F37AF000D155E /* SDL_mixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_mixer.h; path = ../../SDL1_mixer/Headers/SDL_mixer.h; sourceTree = "<group>"; };
+		DA8DB1CF293F392B000D155E /* dynamic_fluidsynth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dynamic_fluidsynth.c; path = SDL1_mixer/dynamic_fluidsynth.c; sourceTree = "<group>"; };
+		DA8DB1D0293F392B000D155E /* dynamic_flac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dynamic_flac.c; path = SDL1_mixer/dynamic_flac.c; sourceTree = "<group>"; };
+		DA8DB1D1293F392B000D155E /* effect_stereoreverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effect_stereoreverse.c; path = SDL1_mixer/effect_stereoreverse.c; sourceTree = "<group>"; };
+		DA8DB1D2293F392B000D155E /* effect_position.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effect_position.c; path = SDL1_mixer/effect_position.c; sourceTree = "<group>"; };
+		DA8DB1D3293F392B000D155E /* effects_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effects_internal.h; path = SDL1_mixer/effects_internal.h; sourceTree = "<group>"; };
+		DA8DB1D4293F392B000D155E /* dynamic_mod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dynamic_mod.c; path = SDL1_mixer/dynamic_mod.c; sourceTree = "<group>"; };
+		DA8DB1D5293F392B000D155E /* dynamic_flac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_flac.h; path = SDL1_mixer/dynamic_flac.h; sourceTree = "<group>"; };
+		DA8DB1D6293F392B000D155E /* dynamic_ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_ogg.h; path = SDL1_mixer/dynamic_ogg.h; sourceTree = "<group>"; };
+		DA8DB1D7293F392B000D155E /* effects_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effects_internal.c; path = SDL1_mixer/effects_internal.c; sourceTree = "<group>"; };
+		DA8DB1D8293F392B000D155E /* dynamic_mp3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_mp3.h; path = SDL1_mixer/dynamic_mp3.h; sourceTree = "<group>"; };
+		DA8DB1D9293F392B000D155E /* dynamic_ogg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dynamic_ogg.c; path = SDL1_mixer/dynamic_ogg.c; sourceTree = "<group>"; };
+		DA8DB1DA293F392B000D155E /* dynamic_fluidsynth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_fluidsynth.h; path = SDL1_mixer/dynamic_fluidsynth.h; sourceTree = "<group>"; };
+		DA8DB1DB293F392B000D155E /* dynamic_mp3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dynamic_mp3.c; path = SDL1_mixer/dynamic_mp3.c; sourceTree = "<group>"; };
+		DA8DB1DC293F392B000D155E /* dynamic_mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_mod.h; path = SDL1_mixer/dynamic_mod.h; sourceTree = "<group>"; };
+		DA8DB1EB293F3983000D155E /* music_cmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_cmd.h; path = SDL1_mixer/music_cmd.h; sourceTree = "<group>"; };
+		DA8DB1EC293F3983000D155E /* music_ogg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_ogg.c; path = SDL1_mixer/music_ogg.c; sourceTree = "<group>"; };
+		DA8DB1ED293F3983000D155E /* music_mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_mod.h; path = SDL1_mixer/music_mod.h; sourceTree = "<group>"; };
+		DA8DB1EE293F3983000D155E /* music_mad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_mad.h; path = SDL1_mixer/music_mad.h; sourceTree = "<group>"; };
+		DA8DB1EF293F3983000D155E /* music_modplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_modplug.h; path = SDL1_mixer/music_modplug.h; sourceTree = "<group>"; };
+		DA8DB1F0293F3983000D155E /* timidity */ = {isa = PBXFileReference; lastKnownFileType = folder; name = timidity; path = SDL1_mixer/timidity; sourceTree = "<group>"; };
+		DA8DB1F1293F3983000D155E /* load_flac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = load_flac.h; path = SDL1_mixer/load_flac.h; sourceTree = "<group>"; };
+		DA8DB1F2293F3983000D155E /* load_aiff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = load_aiff.c; path = SDL1_mixer/load_aiff.c; sourceTree = "<group>"; };
+		DA8DB1F3293F3983000D155E /* music_mod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_mod.c; path = SDL1_mixer/music_mod.c; sourceTree = "<group>"; };
+		DA8DB1F5293F3983000D155E /* music.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music.c; path = SDL1_mixer/music.c; sourceTree = "<group>"; };
+		DA8DB1F6293F3984000D155E /* load_ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = load_ogg.h; path = SDL1_mixer/load_ogg.h; sourceTree = "<group>"; };
+		DA8DB1F7293F3984000D155E /* load_flac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = load_flac.c; path = SDL1_mixer/load_flac.c; sourceTree = "<group>"; };
+		DA8DB1F8293F3984000D155E /* load_aiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = load_aiff.h; path = SDL1_mixer/load_aiff.h; sourceTree = "<group>"; };
+		DA8DB1F9293F3984000D155E /* mixer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mixer.c; path = SDL1_mixer/mixer.c; sourceTree = "<group>"; };
+		DA8DB1FA293F3984000D155E /* load_voc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = load_voc.h; path = SDL1_mixer/load_voc.h; sourceTree = "<group>"; };
+		DA8DB1FB293F3984000D155E /* load_voc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = load_voc.c; path = SDL1_mixer/load_voc.c; sourceTree = "<group>"; };
+		DA8DB1FC293F3984000D155E /* music_modplug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_modplug.c; path = SDL1_mixer/music_modplug.c; sourceTree = "<group>"; };
+		DA8DB1FD293F3984000D155E /* music_ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_ogg.h; path = SDL1_mixer/music_ogg.h; sourceTree = "<group>"; };
+		DA8DB1FE293F3984000D155E /* music_flac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_flac.c; path = SDL1_mixer/music_flac.c; sourceTree = "<group>"; };
+		DA8DB1FF293F3984000D155E /* music_mad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_mad.c; path = SDL1_mixer/music_mad.c; sourceTree = "<group>"; };
+		DA8DB200293F3984000D155E /* music_flac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = music_flac.h; path = SDL1_mixer/music_flac.h; sourceTree = "<group>"; };
+		DA8DB201293F3984000D155E /* music_cmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = music_cmd.c; path = SDL1_mixer/music_cmd.c; sourceTree = "<group>"; };
+		DA8DB202293F3984000D155E /* load_ogg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = load_ogg.c; path = SDL1_mixer/load_ogg.c; sourceTree = "<group>"; };
+		DA8DB21B293F3FB9000D155E /* wavestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wavestream.h; path = SDL1_mixer/wavestream.h; sourceTree = "<group>"; };
+		DA8DB21C293F3FB9000D155E /* wavestream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wavestream.c; path = SDL1_mixer/wavestream.c; sourceTree = "<group>"; };
+		DA8DB221293F411A000D155E /* native_midi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = native_midi.h; sourceTree = "<group>"; };
+		DA8DB222293F411A000D155E /* native_midi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = native_midi_common.h; sourceTree = "<group>"; };
+		DA8DB223293F411A000D155E /* native_midi_macosx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = native_midi_macosx.c; sourceTree = "<group>"; };
+		DA8DB224293F411A000D155E /* native_midi_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = native_midi_common.c; sourceTree = "<group>"; };
+		DA8DB22E293F59A0000D155E /* libmad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8DB255293F5F0D000D155E /* mad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mad.h; path = "SDL1_mixer/libmad-0.16.3/mad.h"; sourceTree = "<group>"; };
+		DA8DB256293F5F0D000D155E /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = "SDL1_mixer/libmad-0.16.3/stream.c"; sourceTree = "<group>"; };
+		DA8DB257293F5F0D000D155E /* layer12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = layer12.h; path = "SDL1_mixer/libmad-0.16.3/layer12.h"; sourceTree = "<group>"; };
+		DA8DB258293F5F0D000D155E /* bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bit.c; path = "SDL1_mixer/libmad-0.16.3/bit.c"; sourceTree = "<group>"; };
+		DA8DB259293F5F0E000D155E /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffman.h; path = "SDL1_mixer/libmad-0.16.3/huffman.h"; sourceTree = "<group>"; };
+		DA8DB25A293F5F0E000D155E /* layer3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = layer3.c; path = "SDL1_mixer/libmad-0.16.3/layer3.c"; sourceTree = "<group>"; };
+		DA8DB25B293F5F0E000D155E /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = frame.c; path = "SDL1_mixer/libmad-0.16.3/frame.c"; sourceTree = "<group>"; };
+		DA8DB25C293F5F0E000D155E /* layer3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = layer3.h; path = "SDL1_mixer/libmad-0.16.3/layer3.h"; sourceTree = "<group>"; };
+		DA8DB25D293F5F0E000D155E /* fixed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fixed.c; path = "SDL1_mixer/libmad-0.16.3/fixed.c"; sourceTree = "<group>"; };
+		DA8DB25E293F5F0E000D155E /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = "SDL1_mixer/libmad-0.16.3/version.c"; sourceTree = "<group>"; };
+		DA8DB25F293F5F0E000D155E /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decoder.c; path = "SDL1_mixer/libmad-0.16.3/decoder.c"; sourceTree = "<group>"; };
+		DA8DB260293F5F0E000D155E /* layer12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = layer12.c; path = "SDL1_mixer/libmad-0.16.3/layer12.c"; sourceTree = "<group>"; };
+		DA8DB261293F5F0E000D155E /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = global.h; path = "SDL1_mixer/libmad-0.16.3/global.h"; sourceTree = "<group>"; };
+		DA8DB262293F5F0E000D155E /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffman.c; path = "SDL1_mixer/libmad-0.16.3/huffman.c"; sourceTree = "<group>"; };
+		DA8DB263293F5F0E000D155E /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timer.c; path = "SDL1_mixer/libmad-0.16.3/timer.c"; sourceTree = "<group>"; };
+		DA8DB264293F5F0E000D155E /* synth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = synth.c; path = "SDL1_mixer/libmad-0.16.3/synth.c"; sourceTree = "<group>"; };
+		DA8DB275293F657D000D155E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		DA8DB277293F65DA000D155E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DA8DB279293F661F000D155E /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = lib/libogg.a; sourceTree = "<group>"; };
+		DA8DB27A293F6620000D155E /* libmodule.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodule.a; path = lib/libmodule.a; sourceTree = "<group>"; };
+		DA8DB27B293F6620000D155E /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = lib/libvorbis.a; sourceTree = "<group>"; };
+		DA8DB27C293F6620000D155E /* libFLAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFLAC.a; path = lib/libFLAC.a; sourceTree = "<group>"; };
+		DA8DB27D293F6620000D155E /* libmikmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmikmod.a; path = lib/libmikmod.a; sourceTree = "<group>"; };
+		DA8DB283293F6795000D155E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DA8DB285293F6859000D155E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		DA8DB287293F6A40000D155E /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = lib/libvorbisfile.a; sourceTree = "<group>"; };
+		DA9745872916D68800DF9EA1 /* SDL_mixer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_mixer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9745B62917B05400DF9EA1 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8DB22C293F59A0000D155E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9745842916D68800DF9EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB286293F6859000D155E /* CoreServices.framework in Frameworks */,
+				DA8DB284293F6795000D155E /* AudioToolbox.framework in Frameworks */,
+				DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */,
+				DA8DB278293F65DA000D155E /* CoreAudio.framework in Frameworks */,
+				DA8DB27E293F6620000D155E /* libogg.a in Frameworks */,
+				DA8DB27F293F6620000D155E /* libmodule.a in Frameworks */,
+				DA8DB280293F6620000D155E /* libvorbis.a in Frameworks */,
+				DA8DB288293F6A40000D155E /* libvorbisfile.a in Frameworks */,
+				DA8DB281293F6620000D155E /* libFLAC.a in Frameworks */,
+				DA8DB282293F6620000D155E /* libmikmod.a in Frameworks */,
+				DA8DB252293F5A51000D155E /* libmad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA82DE3B29167E6E000CB809 = {
+			isa = PBXGroup;
+			children = (
+				DA8DB254293F5E9D000D155E /* libmad */,
+				DA9745812916D5FF00DF9EA1 /* SDL1_mixer */,
+				DA82DE4629167E6E000CB809 /* Products */,
+				DA9745B32916D85200DF9EA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA82DE4629167E6E000CB809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9745872916D68800DF9EA1 /* SDL_mixer.framework */,
+				DA8DB22E293F59A0000D155E /* libmad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8DB229293F413D000D155E /* native_midi */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DB224293F411A000D155E /* native_midi_common.c */,
+				DA8DB222293F411A000D155E /* native_midi_common.h */,
+				DA8DB223293F411A000D155E /* native_midi_macosx.c */,
+				DA8DB221293F411A000D155E /* native_midi.h */,
+			);
+			name = native_midi;
+			path = SDL1_mixer/native_midi;
+			sourceTree = "<group>";
+		};
+		DA8DB254293F5E9D000D155E /* libmad */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DB258293F5F0D000D155E /* bit.c */,
+				DA8DB25F293F5F0E000D155E /* decoder.c */,
+				DA8DB25D293F5F0E000D155E /* fixed.c */,
+				DA8DB25B293F5F0E000D155E /* frame.c */,
+				DA8DB261293F5F0E000D155E /* global.h */,
+				DA8DB262293F5F0E000D155E /* huffman.c */,
+				DA8DB259293F5F0E000D155E /* huffman.h */,
+				DA8DB25A293F5F0E000D155E /* layer3.c */,
+				DA8DB25C293F5F0E000D155E /* layer3.h */,
+				DA8DB260293F5F0E000D155E /* layer12.c */,
+				DA8DB257293F5F0D000D155E /* layer12.h */,
+				DA8DB255293F5F0D000D155E /* mad.h */,
+				DA8DB256293F5F0D000D155E /* stream.c */,
+				DA8DB264293F5F0E000D155E /* synth.c */,
+				DA8DB263293F5F0E000D155E /* timer.c */,
+				DA8DB25E293F5F0E000D155E /* version.c */,
+			);
+			name = libmad;
+			sourceTree = SOURCE_ROOT;
+		};
+		DA9745812916D5FF00DF9EA1 /* SDL1_mixer */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DB21C293F3FB9000D155E /* wavestream.c */,
+				DA8DB21B293F3FB9000D155E /* wavestream.h */,
+				DA8DB1F2293F3983000D155E /* load_aiff.c */,
+				DA8DB1F8293F3984000D155E /* load_aiff.h */,
+				DA8DB1F7293F3984000D155E /* load_flac.c */,
+				DA8DB1F1293F3983000D155E /* load_flac.h */,
+				DA8DB202293F3984000D155E /* load_ogg.c */,
+				DA8DB1F6293F3984000D155E /* load_ogg.h */,
+				DA8DB1FB293F3984000D155E /* load_voc.c */,
+				DA8DB1FA293F3984000D155E /* load_voc.h */,
+				DA8DB1F9293F3984000D155E /* mixer.c */,
+				DA8DB201293F3984000D155E /* music_cmd.c */,
+				DA8DB1EB293F3983000D155E /* music_cmd.h */,
+				DA8DB1FE293F3984000D155E /* music_flac.c */,
+				DA8DB200293F3984000D155E /* music_flac.h */,
+				DA8DB1FF293F3984000D155E /* music_mad.c */,
+				DA8DB1EE293F3983000D155E /* music_mad.h */,
+				DA8DB1F3293F3983000D155E /* music_mod.c */,
+				DA8DB1ED293F3983000D155E /* music_mod.h */,
+				DA8DB1FC293F3984000D155E /* music_modplug.c */,
+				DA8DB1EF293F3983000D155E /* music_modplug.h */,
+				DA8DB1EC293F3983000D155E /* music_ogg.c */,
+				DA8DB1FD293F3984000D155E /* music_ogg.h */,
+				DA8DB1F5293F3983000D155E /* music.c */,
+				DA8DB1D0293F392B000D155E /* dynamic_flac.c */,
+				DA8DB1D5293F392B000D155E /* dynamic_flac.h */,
+				DA8DB1CF293F392B000D155E /* dynamic_fluidsynth.c */,
+				DA8DB1DA293F392B000D155E /* dynamic_fluidsynth.h */,
+				DA8DB1D4293F392B000D155E /* dynamic_mod.c */,
+				DA8DB1DC293F392B000D155E /* dynamic_mod.h */,
+				DA8DB1DB293F392B000D155E /* dynamic_mp3.c */,
+				DA8DB1D8293F392B000D155E /* dynamic_mp3.h */,
+				DA8DB1D9293F392B000D155E /* dynamic_ogg.c */,
+				DA8DB1D6293F392B000D155E /* dynamic_ogg.h */,
+				DA8DB1D2293F392B000D155E /* effect_position.c */,
+				DA8DB1D1293F392B000D155E /* effect_stereoreverse.c */,
+				DA8DB1D7293F392B000D155E /* effects_internal.c */,
+				DA8DB1D3293F392B000D155E /* effects_internal.h */,
+				DA8DB229293F413D000D155E /* native_midi */,
+				DA8DB1F0293F3983000D155E /* timidity */,
+				DA9745B02916D72800DF9EA1 /* Headers */,
+			);
+			name = SDL1_mixer;
+			sourceTree = "<group>";
+		};
+		DA9745B02916D72800DF9EA1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DB1CD293F37AF000D155E /* SDL_mixer.h */,
+			);
+			name = Headers;
+			path = SDL1_image/Headers;
+			sourceTree = "<group>";
+		};
+		DA9745B32916D85200DF9EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DB287293F6A40000D155E /* libvorbisfile.a */,
+				DA8DB285293F6859000D155E /* CoreServices.framework */,
+				DA8DB283293F6795000D155E /* AudioToolbox.framework */,
+				DA8DB27C293F6620000D155E /* libFLAC.a */,
+				DA8DB27D293F6620000D155E /* libmikmod.a */,
+				DA8DB27A293F6620000D155E /* libmodule.a */,
+				DA8DB279293F661F000D155E /* libogg.a */,
+				DA8DB27B293F6620000D155E /* libvorbis.a */,
+				DA8DB277293F65DA000D155E /* CoreAudio.framework */,
+				DA8DB275293F657D000D155E /* AudioUnit.framework */,
+				DA9745B62917B05400DF9EA1 /* SDL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA8DB22A293F59A0000D155E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB265293F5F0E000D155E /* mad.h in Headers */,
+				DA8DB271293F5F0E000D155E /* global.h in Headers */,
+				DA8DB269293F5F0E000D155E /* huffman.h in Headers */,
+				DA8DB26C293F5F0E000D155E /* layer3.h in Headers */,
+				DA8DB267293F5F0E000D155E /* layer12.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9745822916D68800DF9EA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB1E4293F392B000D155E /* dynamic_ogg.h in Headers */,
+				DA8DB1E6293F392B000D155E /* dynamic_mp3.h in Headers */,
+				DA8DB210293F3984000D155E /* load_aiff.h in Headers */,
+				DA8DB226293F411A000D155E /* native_midi_common.h in Headers */,
+				DA8DB205293F3984000D155E /* music_mod.h in Headers */,
+				DA8DB20E293F3984000D155E /* load_ogg.h in Headers */,
+				DA8DB225293F411A000D155E /* native_midi.h in Headers */,
+				DA8DB1E8293F392B000D155E /* dynamic_fluidsynth.h in Headers */,
+				DA8DB207293F3984000D155E /* music_modplug.h in Headers */,
+				DA8DB1E1293F392B000D155E /* effects_internal.h in Headers */,
+				DA8DB218293F3984000D155E /* music_flac.h in Headers */,
+				DA8DB209293F3984000D155E /* load_flac.h in Headers */,
+				DA8DB1CE293F37AF000D155E /* SDL_mixer.h in Headers */,
+				DA8DB203293F3984000D155E /* music_cmd.h in Headers */,
+				DA8DB1E3293F392B000D155E /* dynamic_flac.h in Headers */,
+				DA8DB1EA293F392B000D155E /* dynamic_mod.h in Headers */,
+				DA8DB212293F3984000D155E /* load_voc.h in Headers */,
+				DA8DB21D293F3FB9000D155E /* wavestream.h in Headers */,
+				DA8DB215293F3984000D155E /* music_ogg.h in Headers */,
+				DA8DB206293F3984000D155E /* music_mad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA8DB22D293F59A0000D155E /* mad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8DB22F293F59A0000D155E /* Build configuration list for PBXNativeTarget "mad" */;
+			buildPhases = (
+				DA8DB22A293F59A0000D155E /* Headers */,
+				DA8DB22B293F59A0000D155E /* Sources */,
+				DA8DB22C293F59A0000D155E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mad;
+			productName = libmad;
+			productReference = DA8DB22E293F59A0000D155E /* libmad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA9745862916D68800DF9EA1 /* SDL_mixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_mixer" */;
+			buildPhases = (
+				DA9745822916D68800DF9EA1 /* Headers */,
+				DA9745832916D68800DF9EA1 /* Sources */,
+				DA9745842916D68800DF9EA1 /* Frameworks */,
+				DA9745852916D68800DF9EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL_mixer;
+			productName = SDL_image;
+			productReference = DA9745872916D68800DF9EA1 /* SDL_mixer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA82DE3C29167E6E000CB809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DA8DB22D293F59A0000D155E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DA9745862916D68800DF9EA1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_mixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA82DE3B29167E6E000CB809;
+			productRefGroup = DA82DE4629167E6E000CB809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9745862916D68800DF9EA1 /* SDL_mixer */,
+				DA8DB22D293F59A0000D155E /* mad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9745852916D68800DF9EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB208293F3984000D155E /* timidity in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8DB22B293F59A0000D155E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB274293F5F0E000D155E /* synth.c in Sources */,
+				DA8DB266293F5F0E000D155E /* stream.c in Sources */,
+				DA8DB272293F5F0E000D155E /* huffman.c in Sources */,
+				DA8DB268293F5F0E000D155E /* bit.c in Sources */,
+				DA8DB270293F5F0E000D155E /* layer12.c in Sources */,
+				DA8DB26A293F5F0E000D155E /* layer3.c in Sources */,
+				DA8DB26F293F5F0E000D155E /* decoder.c in Sources */,
+				DA8DB26D293F5F0E000D155E /* fixed.c in Sources */,
+				DA8DB273293F5F0E000D155E /* timer.c in Sources */,
+				DA8DB26E293F5F0E000D155E /* version.c in Sources */,
+				DA8DB26B293F5F0E000D155E /* frame.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9745832916D68800DF9EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8DB1E7293F392B000D155E /* dynamic_ogg.c in Sources */,
+				DA8DB1E2293F392B000D155E /* dynamic_mod.c in Sources */,
+				DA8DB217293F3984000D155E /* music_mad.c in Sources */,
+				DA8DB21A293F3984000D155E /* load_ogg.c in Sources */,
+				DA8DB219293F3984000D155E /* music_cmd.c in Sources */,
+				DA8DB1E9293F392B000D155E /* dynamic_mp3.c in Sources */,
+				DA8DB228293F411A000D155E /* native_midi_common.c in Sources */,
+				DA8DB227293F411A000D155E /* native_midi_macosx.c in Sources */,
+				DA8DB213293F3984000D155E /* load_voc.c in Sources */,
+				DA8DB20A293F3984000D155E /* load_aiff.c in Sources */,
+				DA8DB1E5293F392B000D155E /* effects_internal.c in Sources */,
+				DA8DB211293F3984000D155E /* mixer.c in Sources */,
+				DA8DB1DD293F392B000D155E /* dynamic_fluidsynth.c in Sources */,
+				DA8DB216293F3984000D155E /* music_flac.c in Sources */,
+				DA8DB214293F3984000D155E /* music_modplug.c in Sources */,
+				DA8DB204293F3984000D155E /* music_ogg.c in Sources */,
+				DA8DB1DE293F392B000D155E /* dynamic_flac.c in Sources */,
+				DA8DB20F293F3984000D155E /* load_flac.c in Sources */,
+				DA8DB1DF293F392B000D155E /* effect_stereoreverse.c in Sources */,
+				DA8DB20D293F3984000D155E /* music.c in Sources */,
+				DA8DB1E0293F392B000D155E /* effect_position.c in Sources */,
+				DA8DB20B293F3984000D155E /* music_mod.c in Sources */,
+				DA8DB21E293F3FB9000D155E /* wavestream.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA82DE4A29167E6E000CB809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SDL1_mixer/Headers\"",
+					"$(PROJECT_DIR)/include",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include",
+					"\"$(SRCROOT)/libmad-0.16.3\"",
+					"\"$(SRCROOT)/native_midi\"",
+					"\"$(SRCROOT)/timidity\"",
+				);
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA82DE4B29167E6E000CB809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SDL1_mixer/Headers\"",
+					"$(PROJECT_DIR)/include",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include",
+					"\"$(SRCROOT)/libmad-0.16.3\"",
+					"\"$(SRCROOT)/native_midi\"",
+					"\"$(SRCROOT)/timidity\"",
+				);
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA8DB230293F59A0000D155E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6WTAR259W;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA8DB231293F59A0000D155E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6WTAR259W;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA97458C2916D68800DF9EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.2.12;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6WTAR259W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CMD_MUSIC,
+					WAV_MUSIC,
+					MOD_MUSIC,
+					MID_MUSIC,
+					USE_NATIVE_MIDI,
+					OGG_MUSIC,
+					FLAC_MUSIC,
+					MP3_MAD_MUSIC,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.2.12;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-mixer";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		DA97458D2916D68800DF9EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.2.12;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6WTAR259W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CMD_MUSIC,
+					WAV_MUSIC,
+					MOD_MUSIC,
+					MID_MUSIC,
+					USE_NATIVE_MIDI,
+					OGG_MUSIC,
+					FLAC_MUSIC,
+					MP3_MAD_MUSIC,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.2.12;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-mixer";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_mixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA82DE4A29167E6E000CB809 /* Debug */,
+				DA82DE4B29167E6E000CB809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8DB22F293F59A0000D155E /* Build configuration list for PBXNativeTarget "mad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8DB230293F59A0000D155E /* Debug */,
+				DA8DB231293F59A0000D155E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_mixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA97458C2916D68800DF9EA1 /* Debug */,
+				DA97458D2916D68800DF9EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA82DE3C29167E6E000CB809 /* Project object */;
+}

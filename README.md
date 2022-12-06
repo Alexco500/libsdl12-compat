@@ -7,10 +7,18 @@ For that libsdl12-compat is used, which means you also need SDL2.Framework insta
 At the moment, the following SDL components are included
 
 * SDL1 (SDL12-compat)
-* SDL_image (v1.2.12)
+* SDL_net (v1.2.8)
 * SDL_ttf (v2.0.11)
+	* statically linked to libbrotli, libpng, libfreetype
+* SDL_image (v1.2.12)
+	* supports BMP, GIF, JPG, LBM, PCX, PNG, PNM, TGA, TIF, XCF, XPM, XV
+	* statically linked to libtiff, libjpeg, libpng, liblzma, libLerc64
+* SDL_mixer (v1.2.12)
+	* supports CMD, WAV, MOD, MID, OGG, FLAC, MP3
+	* statically linked to libogg, libmodule, libvorbis, libvorbisfile, libFLAC, libmikmod and libmad
 
-For better compatability, SDL_image is set to `SDL_IMAGE_USE_COMMON_BACKEND`, which means ImageIO is not used for loading images.
+
+For better compatability, SDL\_image is set to `SDL_IMAGE_USE_COMMON_BACKEND`, which means ImageIO is not used for loading images.
 Instead libpng, libtiff, etc. are used and statically linked to the SDL libraries. 
 The included binary dependencies are compiled as follows (both x86_64 and arm64, min macOS 10.13):
 
@@ -37,6 +45,22 @@ libtiff (4.4.0)
 xz (5.2.7)
 ---
 `./configure --disable-doc --disable-lzma-links --disable-lzmadec --disable-lzmainfo --disable-nls --disable-scripts --disable-xzdec CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -I/PATH/TO/libsdl12-compat/include" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64 -L/PATH/TO/libsdl12-compat/libs"`
+
+libogg (1.3.5)
+---
+`./configure CFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64" LDFLAGS="-mmacosx-version-min=10.13 -arch x86_64 -arch arm64"`
+
+libvorbis (1.3.7)
+---
+`Use provided Xcode project`
+
+libmikmod (3.3.11.1)
+---
+`Use provided Xcode project`
+
+Flac (1.4.2)
+---
+`./configure --disable-silent-rules --disable-xmms-plugin --enable-static 'CFLAGS=-mmacosx-version-min=10.13 -arch x86_64 -arch arm64' 'LDFLAGS=-mmacosx-version-min=10.13 -arch x86_64 -arch arm64' --with-ogg-libraries=/PATH/TO/libsdl12-compat/libs --with-ogg-includes=/PATH/TO/libsdl12-compat/includes`
 
 All includes are located in libsdl12-compat/include and the binaries are in libsdl12-compat/lib.
 

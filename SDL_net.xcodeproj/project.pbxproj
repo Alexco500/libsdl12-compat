@@ -7,30 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA8DB1C329316F05000D155E /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1C129316F05000D155E /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8DB1C429316F05000D155E /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8DB1C229316F05000D155E /* SDLnetsys.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DA8DB1C929316F34000D155E /* SDLnetselect.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1C529316F34000D155E /* SDLnetselect.c */; };
+		DA8DB1CA29316F34000D155E /* SDLnetTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1C629316F34000D155E /* SDLnetTCP.c */; };
+		DA8DB1CB29316F34000D155E /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1C729316F34000D155E /* SDLnet.c */; };
+		DA8DB1CC29316F34000D155E /* SDLnetUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB1C829316F34000D155E /* SDLnetUDP.c */; };
 		DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745B62917B05400DF9EA1 /* SDL.framework */; };
-		DA9745CD29191D9100DF9EA1 /* SDL_ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9745CC29191D9100DF9EA1 /* SDL_ttf.c */; };
-		DA9745D0291922B300DF9EA1 /* SDL_ttf.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9745CF291922B300DF9EA1 /* SDL_ttf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9745D42919240300DF9EA1 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D32919240300DF9EA1 /* libfreetype.a */; };
-		DA9745D9291925C700DF9EA1 /* libbrotlidec-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */; };
-		DA9745DA291925C700DF9EA1 /* libbrotlicommon-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */; };
-		DA9745DB291925C700DF9EA1 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D7291925C700DF9EA1 /* libpng16.a */; };
-		DA9745DC291925C700DF9EA1 /* libbrotlienc-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */; };
-		DA9745DE291926B300DF9EA1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745DD291926B300DF9EA1 /* libz.tbd */; };
-		DA9745E0291926C200DF9EA1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745DF291926C200DF9EA1 /* libbz2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA9745872916D68800DF9EA1 /* SDL_ttf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_ttf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8DB1C129316F05000D155E /* SDL_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_net.h; path = SDL1_net/Headers/SDL_net.h; sourceTree = SOURCE_ROOT; };
+		DA8DB1C229316F05000D155E /* SDLnetsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLnetsys.h; path = SDL1_net/Headers/SDLnetsys.h; sourceTree = SOURCE_ROOT; };
+		DA8DB1C529316F34000D155E /* SDLnetselect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDLnetselect.c; path = SDL1_net/SDLnetselect.c; sourceTree = "<group>"; };
+		DA8DB1C629316F34000D155E /* SDLnetTCP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDLnetTCP.c; path = SDL1_net/SDLnetTCP.c; sourceTree = "<group>"; };
+		DA8DB1C729316F34000D155E /* SDLnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDLnet.c; path = SDL1_net/SDLnet.c; sourceTree = "<group>"; };
+		DA8DB1C829316F34000D155E /* SDLnetUDP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDLnetUDP.c; path = SDL1_net/SDLnetUDP.c; sourceTree = "<group>"; };
+		DA9745872916D68800DF9EA1 /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9745B62917B05400DF9EA1 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
-		DA9745CC29191D9100DF9EA1 /* SDL_ttf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_ttf.c; path = SDL1_ttf/SDL_ttf.c; sourceTree = "<group>"; };
-		DA9745CF291922B300DF9EA1 /* SDL_ttf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_ttf.h; path = SDL1_ttf/Headers/SDL_ttf.h; sourceTree = SOURCE_ROOT; };
-		DA9745D32919240300DF9EA1 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = lib/libfreetype.a; sourceTree = "<group>"; };
-		DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlidec-static.a"; path = "lib/libbrotlidec-static.a"; sourceTree = "<group>"; };
-		DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlicommon-static.a"; path = "lib/libbrotlicommon-static.a"; sourceTree = "<group>"; };
-		DA9745D7291925C700DF9EA1 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = lib/libpng16.a; sourceTree = "<group>"; };
-		DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlienc-static.a"; path = "lib/libbrotlienc-static.a"; sourceTree = "<group>"; };
-		DA9745DD291926B300DF9EA1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		DA9745DF291926C200DF9EA1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9745E0291926C200DF9EA1 /* libbz2.tbd in Frameworks */,
-				DA9745DE291926B300DF9EA1 /* libz.tbd in Frameworks */,
-				DA9745D9291925C700DF9EA1 /* libbrotlidec-static.a in Frameworks */,
-				DA9745DA291925C700DF9EA1 /* libbrotlicommon-static.a in Frameworks */,
-				DA9745DB291925C700DF9EA1 /* libpng16.a in Frameworks */,
-				DA9745DC291925C700DF9EA1 /* libbrotlienc-static.a in Frameworks */,
-				DA9745D42919240300DF9EA1 /* libfreetype.a in Frameworks */,
 				DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +42,7 @@
 		DA82DE3B29167E6E000CB809 = {
 			isa = PBXGroup;
 			children = (
-				DA9745812916D5FF00DF9EA1 /* SDL1_ttf */,
+				DA9745812916D5FF00DF9EA1 /* SDL1_net */,
 				DA82DE4629167E6E000CB809 /* Products */,
 				DA9745B32916D85200DF9EA1 /* Frameworks */,
 			);
@@ -64,24 +51,28 @@
 		DA82DE4629167E6E000CB809 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA9745872916D68800DF9EA1 /* SDL_ttf.framework */,
+				DA9745872916D68800DF9EA1 /* SDL_net.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA9745812916D5FF00DF9EA1 /* SDL1_ttf */ = {
+		DA9745812916D5FF00DF9EA1 /* SDL1_net */ = {
 			isa = PBXGroup;
 			children = (
+				DA8DB1C729316F34000D155E /* SDLnet.c */,
+				DA8DB1C529316F34000D155E /* SDLnetselect.c */,
+				DA8DB1C629316F34000D155E /* SDLnetTCP.c */,
+				DA8DB1C829316F34000D155E /* SDLnetUDP.c */,
 				DA9745B02916D72800DF9EA1 /* Headers */,
-				DA9745CC29191D9100DF9EA1 /* SDL_ttf.c */,
 			);
-			name = SDL1_ttf;
+			name = SDL1_net;
 			sourceTree = "<group>";
 		};
 		DA9745B02916D72800DF9EA1 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DA9745CF291922B300DF9EA1 /* SDL_ttf.h */,
+				DA8DB1C129316F05000D155E /* SDL_net.h */,
+				DA8DB1C229316F05000D155E /* SDLnetsys.h */,
 			);
 			name = Headers;
 			path = SDL1_image/Headers;
@@ -90,13 +81,6 @@
 		DA9745B32916D85200DF9EA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA9745DF291926C200DF9EA1 /* libbz2.tbd */,
-				DA9745DD291926B300DF9EA1 /* libz.tbd */,
-				DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */,
-				DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */,
-				DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */,
-				DA9745D7291925C700DF9EA1 /* libpng16.a */,
-				DA9745D32919240300DF9EA1 /* libfreetype.a */,
 				DA9745B62917B05400DF9EA1 /* SDL.framework */,
 			);
 			name = Frameworks;
@@ -109,16 +93,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9745D0291922B300DF9EA1 /* SDL_ttf.h in Headers */,
+				DA8DB1C429316F05000D155E /* SDLnetsys.h in Headers */,
+				DA8DB1C329316F05000D155E /* SDL_net.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DA9745862916D68800DF9EA1 /* SDL_ttf */ = {
+		DA9745862916D68800DF9EA1 /* SDL_net */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_ttf" */;
+			buildConfigurationList = DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_net" */;
 			buildPhases = (
 				DA9745822916D68800DF9EA1 /* Headers */,
 				DA9745832916D68800DF9EA1 /* Sources */,
@@ -129,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = SDL_ttf;
+			name = SDL_net;
 			productName = SDL_image;
-			productReference = DA9745872916D68800DF9EA1 /* SDL_ttf.framework */;
+			productReference = DA9745872916D68800DF9EA1 /* SDL_net.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_ttf" */;
+			buildConfigurationList = DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_net" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA9745862916D68800DF9EA1 /* SDL_ttf */,
+				DA9745862916D68800DF9EA1 /* SDL_net */,
 			);
 		};
 /* End PBXProject section */
@@ -181,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9745CD29191D9100DF9EA1 /* SDL_ttf.c in Sources */,
+				DA8DB1CB29316F34000D155E /* SDLnet.c in Sources */,
+				DA8DB1C929316F34000D155E /* SDLnetselect.c in Sources */,
+				DA8DB1CA29316F34000D155E /* SDLnetTCP.c in Sources */,
+				DA8DB1CC29316F34000D155E /* SDLnetUDP.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +213,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -240,21 +231,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SDL1_ttf/Headers\"",
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/include/freetype2",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/SDL1_net/Headers\"";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/include/freetype2",
-				);
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -297,7 +280,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -306,20 +292,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SDL1_ttf/Headers\"",
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/include/freetype2",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/SDL1_net/Headers\"";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/include",
-					"$(PROJECT_DIR)/include/freetype2",
-				);
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -335,7 +313,7 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2.0.11;
+				CURRENT_PROJECT_VERSION = 1.2.8;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -353,9 +331,9 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.0.11;
+				MARKETING_VERSION = 1.2.8;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-ttf";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-net";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -373,7 +351,7 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2.0.11;
+				CURRENT_PROJECT_VERSION = 1.2.8;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -391,9 +369,9 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.0.11;
+				MARKETING_VERSION = 1.2.8;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-ttf";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-net";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -404,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_ttf" */ = {
+		DA82DE3F29167E6E000CB809 /* Build configuration list for PBXProject "SDL_net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA82DE4A29167E6E000CB809 /* Debug */,
@@ -413,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_ttf" */ = {
+		DA97458B2916D68800DF9EA1 /* Build configuration list for PBXNativeTarget "SDL_net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA97458C2916D68800DF9EA1 /* Debug */,

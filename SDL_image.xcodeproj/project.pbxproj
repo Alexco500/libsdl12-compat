@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA8DB289293F8969000D155E /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745B62917B05400DF9EA1 /* SDL.framework */; };
 		DA9745A12916D6EE00DF9EA1 /* IMG_jpg.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9745902916D6ED00DF9EA1 /* IMG_jpg.c */; };
 		DA9745A22916D6EE00DF9EA1 /* IMG_png.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9745912916D6ED00DF9EA1 /* IMG_png.c */; };
 		DA9745A32916D6EE00DF9EA1 /* IMG_pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9745922916D6ED00DF9EA1 /* IMG_pnm.c */; };
@@ -23,7 +24,6 @@
 		DA9745AE2916D6EE00DF9EA1 /* IMG_xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = DA97459D2916D6EE00DF9EA1 /* IMG_xpm.c */; };
 		DA9745AF2916D6EE00DF9EA1 /* IMG_webp.c in Sources */ = {isa = PBXBuildFile; fileRef = DA97459E2916D6EE00DF9EA1 /* IMG_webp.c */; };
 		DA9745B22916D74D00DF9EA1 /* SDL_image.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9745B12916D74D00DF9EA1 /* SDL_image.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745B62917B05400DF9EA1 /* SDL.framework */; };
 		DA9745BD2919008200DF9EA1 /* IMG_ImageIO.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97458F2916D6ED00DF9EA1 /* IMG_ImageIO.m */; };
 		DA9745BF291900F900DF9EA1 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745BE291900F900DF9EA1 /* ApplicationServices.framework */; };
 		DA9745EF2919329100DF9EA1 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745EE2919329100DF9EA1 /* libpng16.a */; };
@@ -56,15 +56,15 @@
 		DA97459D2916D6EE00DF9EA1 /* IMG_xpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IMG_xpm.c; path = SDL1_image/IMG_xpm.c; sourceTree = "<group>"; };
 		DA97459E2916D6EE00DF9EA1 /* IMG_webp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IMG_webp.c; path = SDL1_image/IMG_webp.c; sourceTree = "<group>"; };
 		DA9745B12916D74D00DF9EA1 /* SDL_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_image.h; sourceTree = "<group>"; };
-		DA9745B62917B05400DF9EA1 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		DA9745B62917B05400DF9EA1 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		DA9745BE291900F900DF9EA1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
-		DA9745EE2919329100DF9EA1 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = libs/libpng16.a; sourceTree = "<group>"; };
+		DA9745EE2919329100DF9EA1 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = lib/libpng16.a; sourceTree = "<group>"; };
 		DA9745F0291941D000DF9EA1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		DA9745F22919464500DF9EA1 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = libs/libjpeg.a; sourceTree = "<group>"; };
-		DA974615291A429700DF9EA1 /* libtiffxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiffxx.a; path = libs/libtiffxx.a; sourceTree = "<group>"; };
-		DA974616291A429700DF9EA1 /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = libs/libtiff.a; sourceTree = "<group>"; };
-		DA974619291A42B900DF9EA1 /* liblzma.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblzma.a; path = libs/liblzma.a; sourceTree = "<group>"; };
-		DA97461A291A42B900DF9EA1 /* libLerc64-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libLerc64-static.a"; path = "libs/libLerc64-static.a"; sourceTree = "<group>"; };
+		DA9745F22919464500DF9EA1 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = lib/libjpeg.a; sourceTree = "<group>"; };
+		DA974615291A429700DF9EA1 /* libtiffxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiffxx.a; path = lib/libtiffxx.a; sourceTree = "<group>"; };
+		DA974616291A429700DF9EA1 /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = lib/libtiff.a; sourceTree = "<group>"; };
+		DA974619291A42B900DF9EA1 /* liblzma.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblzma.a; path = lib/liblzma.a; sourceTree = "<group>"; };
+		DA97461A291A42B900DF9EA1 /* libLerc64-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libLerc64-static.a"; path = "lib/libLerc64-static.a"; sourceTree = "<group>"; };
 		DA97461D291A444100DF9EA1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -80,9 +80,9 @@
 				DA9745EF2919329100DF9EA1 /* libpng16.a in Frameworks */,
 				DA9745F1291941D000DF9EA1 /* libz.tbd in Frameworks */,
 				DA9745BF291900F900DF9EA1 /* ApplicationServices.framework in Frameworks */,
-				DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */,
 				DA97461B291A42B900DF9EA1 /* liblzma.a in Frameworks */,
 				DA97461C291A42B900DF9EA1 /* libLerc64-static.a in Frameworks */,
+				DA8DB289293F8969000D155E /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +303,29 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					SDL_IMAGE_USE_COMMON_BACKEND,
+					LOAD_BMP,
+					LOAD_GIF,
+					LOAD_JPG,
+					LOAD_LBM,
+					LOAD_PCX,
+					LOAD_PNG,
+					LOAD_PNM,
+					LOAD_TGA,
+					LOAD_TIF,
+					LOAD_XCF,
+					LOAD_XPM,
+					LOAD_XV,
+					LOAD_XXX,
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -317,6 +335,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"$(SRCROOT)/include/libpng16",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -364,14 +390,42 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SDL_IMAGE_USE_COMMON_BACKEND,
+					LOAD_BMP,
+					LOAD_GIF,
+					LOAD_JPG,
+					LOAD_LBM,
+					LOAD_PCX,
+					LOAD_PNG,
+					LOAD_PNM,
+					LOAD_TGA,
+					LOAD_TIF,
+					LOAD_XCF,
+					LOAD_XPM,
+					LOAD_XV,
+					LOAD_XXX,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"$(SRCROOT)/include/libpng16",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -391,21 +445,15 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2.12;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/include\"",
-					"$(SRCROOT)/include/libpng16",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -413,30 +461,12 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/libs",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.2.12;
-				OTHER_CFLAGS = (
-					"-DSDL_IMAGE_USE_COMMON_BACKEND",
-					"-DLOAD_BMP",
-					"-DLOAD_GIF",
-					"-DLOAD_JPG",
-					"-DLOAD_LBM",
-					"-DLOAD_PCX",
-					"-DLOAD_PNG",
-					"-DLOAD_PNM",
-					"-DLOAD_TGA",
-					"-DLOAD_TIF",
-					"-DLOAD_XCF",
-					"-DLOAD_XPM",
-					"-DLOAD_XV",
-					"-DLOAD_XXX",
-				);
+				OTHER_CFLAGS = "";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.lib.SDL-image";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-image";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,21 +484,15 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2.12;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Frameworks";
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/include\"",
-					"$(SRCROOT)/include/libpng16",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,30 +500,12 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/libs",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.2.12;
-				OTHER_CFLAGS = (
-					"-DSDL_IMAGE_USE_COMMON_BACKEND",
-					"-DLOAD_BMP",
-					"-DLOAD_GIF",
-					"-DLOAD_JPG",
-					"-DLOAD_LBM",
-					"-DLOAD_PCX",
-					"-DLOAD_PNG",
-					"-DLOAD_PNM",
-					"-DLOAD_TGA",
-					"-DLOAD_TIF",
-					"-DLOAD_XCF",
-					"-DLOAD_XPM",
-					"-DLOAD_XV",
-					"-DLOAD_XXX",
-				);
+				OTHER_CFLAGS = "";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.lib.SDL-image";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-image";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
