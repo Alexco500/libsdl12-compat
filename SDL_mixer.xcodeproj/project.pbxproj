@@ -70,7 +70,6 @@
 		DA8DB274293F5F0E000D155E /* synth.c in Sources */ = {isa = PBXBuildFile; fileRef = DA8DB264293F5F0E000D155E /* synth.c */; };
 		DA8DB278293F65DA000D155E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB277293F65DA000D155E /* CoreAudio.framework */; };
 		DA8DB27E293F6620000D155E /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB279293F661F000D155E /* libogg.a */; };
-		DA8DB27F293F6620000D155E /* libmodule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27A293F6620000D155E /* libmodule.a */; };
 		DA8DB280293F6620000D155E /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27B293F6620000D155E /* libvorbis.a */; };
 		DA8DB281293F6620000D155E /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27C293F6620000D155E /* libFLAC.a */; };
 		DA8DB282293F6620000D155E /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB27D293F6620000D155E /* libmikmod.a */; };
@@ -78,6 +77,7 @@
 		DA8DB286293F6859000D155E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB285293F6859000D155E /* CoreServices.framework */; };
 		DA8DB288293F6A40000D155E /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB287293F6A40000D155E /* libvorbisfile.a */; };
 		DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745B62917B05400DF9EA1 /* SDL.framework */; };
+		DAD4B63A29841DD1000857B1 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DB275293F657D000D155E /* AudioUnit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,12 +173,12 @@
 				DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */,
 				DA8DB278293F65DA000D155E /* CoreAudio.framework in Frameworks */,
 				DA8DB27E293F6620000D155E /* libogg.a in Frameworks */,
-				DA8DB27F293F6620000D155E /* libmodule.a in Frameworks */,
 				DA8DB280293F6620000D155E /* libvorbis.a in Frameworks */,
 				DA8DB288293F6A40000D155E /* libvorbisfile.a in Frameworks */,
 				DA8DB281293F6620000D155E /* libFLAC.a in Frameworks */,
 				DA8DB282293F6620000D155E /* libmikmod.a in Frameworks */,
 				DA8DB252293F5A51000D155E /* libmad.a in Frameworks */,
+				DAD4B63A29841DD1000857B1 /* AudioUnit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +550,7 @@
 					"$(PROJECT_DIR)/include",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -617,7 +617,7 @@
 					"$(PROJECT_DIR)/include",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -638,7 +638,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -651,7 +651,7 @@
 				DEVELOPMENT_TEAM = L6WTAR259W;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -696,7 +696,7 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 1.2.12;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-mixer";
@@ -746,7 +746,7 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 1.2.12;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-mixer";

@@ -11,10 +11,10 @@
 		DA9745CD29191D9100DF9EA1 /* SDL_ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9745CC29191D9100DF9EA1 /* SDL_ttf.c */; };
 		DA9745D0291922B300DF9EA1 /* SDL_ttf.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9745CF291922B300DF9EA1 /* SDL_ttf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA9745D42919240300DF9EA1 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D32919240300DF9EA1 /* libfreetype.a */; };
-		DA9745D9291925C700DF9EA1 /* libbrotlidec-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */; };
-		DA9745DA291925C700DF9EA1 /* libbrotlicommon-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */; };
+		DA9745D9291925C700DF9EA1 /* libbrotlidec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D5291925C700DF9EA1 /* libbrotlidec.a */; };
+		DA9745DA291925C700DF9EA1 /* libbrotlicommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D6291925C700DF9EA1 /* libbrotlicommon.a */; };
 		DA9745DB291925C700DF9EA1 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D7291925C700DF9EA1 /* libpng16.a */; };
-		DA9745DC291925C700DF9EA1 /* libbrotlienc-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */; };
+		DA9745DC291925C700DF9EA1 /* libbrotlienc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745D8291925C700DF9EA1 /* libbrotlienc.a */; };
 		DA9745DE291926B300DF9EA1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745DD291926B300DF9EA1 /* libz.tbd */; };
 		DA9745E0291926C200DF9EA1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9745DF291926C200DF9EA1 /* libbz2.tbd */; };
 /* End PBXBuildFile section */
@@ -25,10 +25,10 @@
 		DA9745CC29191D9100DF9EA1 /* SDL_ttf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_ttf.c; path = SDL1_ttf/SDL_ttf.c; sourceTree = "<group>"; };
 		DA9745CF291922B300DF9EA1 /* SDL_ttf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_ttf.h; path = SDL1_ttf/Headers/SDL_ttf.h; sourceTree = SOURCE_ROOT; };
 		DA9745D32919240300DF9EA1 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = lib/libfreetype.a; sourceTree = "<group>"; };
-		DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlidec-static.a"; path = "lib/libbrotlidec-static.a"; sourceTree = "<group>"; };
-		DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlicommon-static.a"; path = "lib/libbrotlicommon-static.a"; sourceTree = "<group>"; };
+		DA9745D5291925C700DF9EA1 /* libbrotlidec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotlidec.a; path = lib/libbrotlidec.a; sourceTree = "<group>"; };
+		DA9745D6291925C700DF9EA1 /* libbrotlicommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotlicommon.a; path = lib/libbrotlicommon.a; sourceTree = "<group>"; };
 		DA9745D7291925C700DF9EA1 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = lib/libpng16.a; sourceTree = "<group>"; };
-		DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbrotlienc-static.a"; path = "lib/libbrotlienc-static.a"; sourceTree = "<group>"; };
+		DA9745D8291925C700DF9EA1 /* libbrotlienc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotlienc.a; path = lib/libbrotlienc.a; sourceTree = "<group>"; };
 		DA9745DD291926B300DF9EA1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DA9745DF291926C200DF9EA1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -40,10 +40,10 @@
 			files = (
 				DA9745E0291926C200DF9EA1 /* libbz2.tbd in Frameworks */,
 				DA9745DE291926B300DF9EA1 /* libz.tbd in Frameworks */,
-				DA9745D9291925C700DF9EA1 /* libbrotlidec-static.a in Frameworks */,
-				DA9745DA291925C700DF9EA1 /* libbrotlicommon-static.a in Frameworks */,
+				DA9745D9291925C700DF9EA1 /* libbrotlidec.a in Frameworks */,
+				DA9745DA291925C700DF9EA1 /* libbrotlicommon.a in Frameworks */,
 				DA9745DB291925C700DF9EA1 /* libpng16.a in Frameworks */,
-				DA9745DC291925C700DF9EA1 /* libbrotlienc-static.a in Frameworks */,
+				DA9745DC291925C700DF9EA1 /* libbrotlienc.a in Frameworks */,
 				DA9745D42919240300DF9EA1 /* libfreetype.a in Frameworks */,
 				DA9745B82917B15200DF9EA1 /* SDL.framework in Frameworks */,
 			);
@@ -92,9 +92,9 @@
 			children = (
 				DA9745DF291926C200DF9EA1 /* libbz2.tbd */,
 				DA9745DD291926B300DF9EA1 /* libz.tbd */,
-				DA9745D6291925C700DF9EA1 /* libbrotlicommon-static.a */,
-				DA9745D5291925C700DF9EA1 /* libbrotlidec-static.a */,
-				DA9745D8291925C700DF9EA1 /* libbrotlienc-static.a */,
+				DA9745D6291925C700DF9EA1 /* libbrotlicommon.a */,
+				DA9745D5291925C700DF9EA1 /* libbrotlidec.a */,
+				DA9745D8291925C700DF9EA1 /* libbrotlienc.a */,
 				DA9745D7291925C700DF9EA1 /* libpng16.a */,
 				DA9745D32919240300DF9EA1 /* libfreetype.a */,
 				DA9745B62917B05400DF9EA1 /* SDL.framework */,
@@ -246,7 +246,7 @@
 					"$(PROJECT_DIR)/include/freetype2",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -312,7 +312,7 @@
 					"$(PROJECT_DIR)/include/freetype2",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -352,7 +352,7 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 2.0.11;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-ttf";
@@ -390,7 +390,7 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 2.0.11;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-ttf";

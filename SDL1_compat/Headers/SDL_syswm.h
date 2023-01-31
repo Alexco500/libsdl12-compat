@@ -98,7 +98,7 @@ real SDL-1.2 available to you. */
 
 #   else
 
-#       include "begin_code.h"
+#       include <SDL/begin_code.h>
 
         struct SDL_SysWMmsg
         {
@@ -112,7 +112,7 @@ real SDL-1.2 available to you. */
             int data;
         } SDL_SysWMinfo;
 
-#       include "close_code.h"
+#       include <SDL/close_code.h>
 
 #   endif
 
